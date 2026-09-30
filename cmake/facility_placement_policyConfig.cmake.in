@@ -1,0 +1,9 @@
+@PACKAGE_INIT@
+
+# Facility Placement Policy exports exactly one namespaced imported target,
+# dccp::facility_placement_policy. The library has no third-party dependencies,
+# so nothing else has to be found before it can be used.
+
+include("${CMAKE_CURRENT_LIST_DIR}/facility_placement_policyTargets.cmake")
+
+check_required_components(facility_placement_policy)

@@ -1,0 +1,21 @@
+# Build and validation artifacts
+build/
+build-*/
+out/
+install/
+_install/
+_stage/
+cmake-build-*/
+CMakeUserPresets.json
+
+# Toolchain and editor noise
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Local validation scratch space
+_scratch/
+*.fpp.tmp
+*.part

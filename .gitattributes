@@ -1,0 +1,7 @@
+# The repository stores text with LF endings and checks it out with LF endings on
+# every platform, so a fresh clone produces byte-identical sources on Windows,
+# Linux and macOS. Binary artifacts are never normalized.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.gif binary
