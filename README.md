@@ -1,7 +1,6 @@
 # Facility Placement Policy
 
-Deterministic evaluation of allowable physical placement for DCCP Tranche 6
-(Facility Policy, Tenancy, and Entitlement). It answers one question, and answers
+Deterministic evaluation of allowable physical placement. It answers one question, and answers
 it reproducibly:
 
 > Given a proposed physical placement and the exact generation-bound evidence
